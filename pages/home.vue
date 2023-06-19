@@ -3,7 +3,8 @@
 </script>
 
 <template>
-  <div class="mx-auto flex flex-col items-center justify-center">
+  <CenterBanner />
+  <div class="mx-auto flex flex-col items-center justify-center mt-4">
     <h1 class="text">Welcome to the homepage!</h1>
     <div class="box">
       <p class="text text-center">Learned Programming Languages/Frameworks</p>

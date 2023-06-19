@@ -1,7 +1,6 @@
 <template>
-  <div class="bg-gray-800 w-full h-full min-h-screen items-center justify-top flex flex-col pb-10">
-    <div class="max-w-screen-md">
-      <CenterBanner />
+  <div class="bg-gray-800 h-full min-h-screen items-center justify-top flex flex-col pb-10">
+    <div class="w-full">
       <Navbar />
       <div class="mt-10">
         <slot />

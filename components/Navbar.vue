@@ -1,5 +1,14 @@
 <template>
-  <div class="w-full px-4 bg-gray-500 mt-4">
-    a
+  <div class="flex items-end justify-end">
+    <div class="w-1/2 flex items-start justify-start p-2">
+      <p class="text text-center ml-12 cursor-pointer">nemunyan's room</p>
+    </div>
+    <div class="w-1/2 grid grid-cols-5">
+      <NavbarContent :text="'Home'" />
+      <NavbarContent :text="'About'" />
+      <NavbarContent :text="'Works'" />
+      <NavbarContent :text="'Blog'" />
+      <NavbarContent :text="'Walkthrough'" />
+    </div>
   </div>
 </template>
