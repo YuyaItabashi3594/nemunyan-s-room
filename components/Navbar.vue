@@ -6,9 +6,9 @@
     <div class="w-1/2 grid grid-cols-5">
       <NavbarContent :text="'Home'" :url="'/'" />
       <NavbarContent :text="'About'" :url="'/about'" />
-      <NavbarContent :text="'Works'" />
-      <NavbarContent :text="'Blog'" />
-      <NavbarContent :text="'Walkthrough'" />
+      <NavbarContent :text="'Works'" :url="'/works'" />
+      <NavbarContent :text="'Blog'" :url="'blog'" />
+      <NavbarContent :text="'Walkthrough'" :url="'walkthrough'" />
     </div>
   </div>
 </template>
