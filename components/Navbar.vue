@@ -4,8 +4,8 @@
       <p class="text text-center ml-12 cursor-pointer">nemunyan's room</p>
     </div>
     <div class="w-1/2 grid grid-cols-5">
-      <NavbarContent :text="'Home'" />
-      <NavbarContent :text="'About'" />
+      <NavbarContent :text="'Home'" :url="'/'" />
+      <NavbarContent :text="'About'" :url="'/about'" />
       <NavbarContent :text="'Works'" />
       <NavbarContent :text="'Blog'" />
       <NavbarContent :text="'Walkthrough'" />

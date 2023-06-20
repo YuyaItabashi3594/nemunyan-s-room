@@ -1,23 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/content"],
   app: {
     head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
-    }
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+    },
   },
-  css: [
-    '@fortawesome/fontawesome-svg-core/styles.css'
-  ],
+  css: ["@fortawesome/fontawesome-svg-core/styles.css"],
   vite: {
     server: {
-        hmr: {
-            port: 3008
-        },
-        watch: {
-          usePolling: true
-        }
-    }
-}
-})
+      hmr: {
+        port: 3008,
+      },
+      watch: {
+        usePolling: true,
+      },
+    },
+  },
+});

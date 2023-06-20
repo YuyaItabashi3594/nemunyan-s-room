@@ -6,9 +6,11 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="w-auto cursor-pointer">
-    <div class="rounded-xl hover:bg-slate-600 transition duration-75">
-      <p class="text text-center p-2">{{ text }}</p>
+  <NuxtLink :to="url">
+    <div class="w-auto cursor-pointer">
+      <div class="rounded-xl hover:bg-slate-600 transition duration-75">
+        <p class="text text-center p-2">{{ text }}</p>
+      </div>
     </div>
-  </div>
+  </NuxtLink>
 </template>
