@@ -14,8 +14,6 @@
 <style>
 .text{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.75rem; /* 28px */ 
   color:rgb(224, 224, 224);
 }
 
