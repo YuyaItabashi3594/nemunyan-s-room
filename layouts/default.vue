@@ -16,6 +16,9 @@
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   color:rgb(224, 224, 224);
 }
+.description{
+  margin-top: 10px;
+}
 
 .box{
   @apply border border-gray-500 p-4 mt-10 bg-gray-700 rounded-xl;
