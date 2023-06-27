@@ -18,6 +18,12 @@
 }
 .description{
   margin-top: 10px;
+  transform-origin: top;
+  transition: transform .4s ease-in-out;
+}
+
+.slide-enter-from, .slide-leave-to{
+  transform: scaleY(0);
 }
 
 .box{

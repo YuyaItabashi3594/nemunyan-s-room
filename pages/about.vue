@@ -40,8 +40,6 @@
         <p class="text text-center description">Baba is You</p>
         <p class="text text-center description">Symphony of War</p>
         <p class="text text-center description">OPUS</p>
-        <p class="text text-center description">a</p>
-        <p class="text text-center description">b</p>
       </div>
     </div>
   </div>

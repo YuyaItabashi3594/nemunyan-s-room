@@ -27,7 +27,7 @@
       <p class="text text-xl text-center">Favorite Games</p>
       <div class="flex flex-col mt-4 items-center justify-center">
         <GameImage :src="'/games/iidx.png'" :url="'https://www.konami.com/amusement/video/bm2dx/'" :alt="'beatmania IIDX'" />
-        <GameImage :src="'/games/eiketsu.png'" :url="'https://www.konami.com/amusement/video/bm2dx/'" :alt="'英傑大戦'" />
+        <GameImage :src="'/games/eiketsu.png'" :url="'https://www.eiketsu-taisen.com/'" :alt="'英傑大戦'" />
       </div>
     </div>
   </div>
