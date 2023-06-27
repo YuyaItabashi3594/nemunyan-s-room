@@ -36,7 +36,6 @@
       <div>
         <p class="text text-4xl text-center">My Favorite Things</p>
         <DropdownDescription :title="'beatmania IIDX'" :description="'iidx'" />
-        <p class="text text-center description">beatmania IIDX</p>
         <p class="text text-center description">英傑大戦</p>
         <p class="text text-center description">Baba is You</p>
         <p class="text text-center description">Symphony of War</p>
