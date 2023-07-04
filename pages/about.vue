@@ -22,12 +22,6 @@
           2019/4~2022/3:Tohoku University of Economics and Management Master Degree
         </p>
         <p class="text text-center description">
-          2022/4~2023/1:Poor man(different contract from posting,so I have to avoid that company;got fucked by <a
-            class="border-b"
-            href="https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E5%A5%91%E7%B4%84">
-            SES company</a>)
-        </p>
-        <p class="text text-center description">
           2023/1~:Web Developer,trying to be Frontend Developer
         </p>
       </div>
