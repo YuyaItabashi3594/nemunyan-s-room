@@ -14,14 +14,14 @@ const isOpen = ref(false)
 
 <template>
   <div class="px-10">
-    <div class="">
+    <div :class="{'border':isOpen}">
       <div @click="isOpen = !isOpen" class="text-center hover:bg-gray-500">
-        <p class="text text-xl py-1">{{ title }}</p>
+        <p class="text text-xl py-1" :class="{'border-b':isOpen}">{{ title }}</p>
       </div>
       <Transition name="slide">
-      <ul v-if="isOpen" class="description border rounded border-gray-500" >
+      <ul v-if="isOpen" class="description rounded border-gray-500" >
         <ContentDoc :path="'/' + description" v-slot="{ doc }">
-          <ContentRenderer class="text p-2" :value="doc" />
+          <ContentRenderer class="text p-2 markdown" :value="doc" />
         </ContentDoc>
       </ul>
       </Transition>
@@ -30,10 +30,16 @@ const isOpen = ref(false)
 </template>
 
 <style>
-.content-doc .h2, .content-doc h2 {
-  border-top: 1px solid #dee2e6;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  padding-top: 2rem;
+.markdown h2 {
+  border-bottom: 1px solid #dee2e6;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.markdown p {
+  margin-top: 0.5rem;
+}
+.markdown img {
+  @apply object-scale-down h-72;
 }
 </style>
