@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxt/content"],
   app: {
     head: {
+      baseURL: "https://yuyaitabashi3594.github.io/nemunyan-s-room/",
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: "nemunyan's room",
