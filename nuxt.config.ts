@@ -5,6 +5,10 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
+      title: "nemunyan's room",
+      meta: [
+        {name: "nemunyan's room", content: "nemunyanのポートフォリオサイトです。Nuxt3で作っています。"},
+      ]
     },
   },
   css: ["@fortawesome/fontawesome-svg-core/styles.css"],
