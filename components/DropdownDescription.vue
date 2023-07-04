@@ -15,7 +15,7 @@ const isOpen = ref(false)
 <template>
   <div class="px-10">
     <div :class="{'border':isOpen}">
-      <div @click="isOpen = !isOpen" class="text-center hover:bg-gray-500">
+      <div @click="isOpen = !isOpen" class="text-center hover:bg-slate-600 transition duration-75 cursor-pointer">
         <p class="text text-xl py-1" :class="{'border-b':isOpen}">{{ title }}</p>
       </div>
       <Transition name="slide">
