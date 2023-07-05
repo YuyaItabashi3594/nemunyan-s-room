@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxt/content"],
   app: {
-    baseURL: 'https://yuyaitabashi3594.github.io',
-    cdnURL: '/nemunyan-s-room/',
+    baseURL: "./",
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
