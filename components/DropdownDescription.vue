@@ -20,7 +20,7 @@ const isOpen = ref(false)
       </div>
       <Transition name="slide">
       <ul v-if="isOpen" class="description rounded border-gray-500" >
-        <ContentDoc :path="'/' + description" v-slot="{ doc }">
+        <ContentDoc :path="'/content/' + description" v-slot="{ doc }">
           <ContentRenderer class="text p-2 markdown" :value="doc" />
         </ContentDoc>
       </ul>
