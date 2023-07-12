@@ -1,7 +1,3 @@
----
-title: beatmania IIDX
----
-
 ## beatmania IIDXとは？
 
 KONAMiが開発・販売している音楽ゲームのシリーズ。
