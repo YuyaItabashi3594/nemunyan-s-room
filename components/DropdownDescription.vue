@@ -1,6 +1,12 @@
 <script setup>
 import VueMarkdown from 'vue-markdown-render'
 
+const options = ({
+  html:true,
+  linkify: true,
+  typographer: true
+})
+
 const props = defineProps({
   title: String,
   description: String,
@@ -17,7 +23,6 @@ const toggleOpen = () => {
       .then(response => response.text())
       .then(data => {
         markdownContent.value = data;
-        console.log(markdownContent.value);
       })
       .catch(error => {
         console.error(error);
@@ -28,14 +33,14 @@ const src = ref('## hogehoge')
 </script>
 
 <template>
-  <div class="px-10">
+  <div class="">
     <div :class="{ 'border': isOpen }">
       <div @click="toggleOpen" class="text-center hover:bg-slate-600 transition duration-75 cursor-pointer">
         <p class="text text-xl py-1" :class="{ 'border-b': isOpen }">{{ title }}</p>
       </div>
       <Transition name="slide">
         <ul v-if="isOpen" class="description rounded border-gray-500">
-          <vue-markdown class="markdown text p-2" :source="markdownContent" />
+          <vue-markdown class="markdown text p-2" :source="markdownContent" :options="options" />
         </ul>
       </Transition>
     </div>

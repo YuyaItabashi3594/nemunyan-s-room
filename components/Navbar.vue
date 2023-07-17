@@ -1,7 +1,9 @@
 <template>
   <div class="flex items-end justify-end">
     <div class="w-1/2 flex items-start justify-start p-2">
-      <p class="text text-center ml-12 cursor-pointer">nemunyan's room</p>
+      <NuxtLink :to="'/'">
+        <p class="text text-center ml-12 cursor-pointer">nemunyan's room</p>
+      </NuxtLink>
     </div>
     <div class="w-1/2 grid grid-cols-5">
       <NavbarContent :text="'Home'" :url="'/'" />

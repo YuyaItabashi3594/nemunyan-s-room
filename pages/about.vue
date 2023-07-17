@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-screen">
+  <div class="flex min-h-screen">
     <div class="flex-1 items-center justify-center mx-2">
       <div>
         <p class="text text-4xl text-center">Profile</p>
@@ -26,7 +26,7 @@
         </p>
       </div>
     </div>
-    <div class="flex-1 items-center justify-center mx-2">
+    <div class="flex-1 items-center justify-center mx-2 h-auto">
       <div>
         <p class="text text-4xl text-center">My Favorite Things</p>
         <DropdownDescription :title="'beatmania IIDX'" :description="'iidx'" />

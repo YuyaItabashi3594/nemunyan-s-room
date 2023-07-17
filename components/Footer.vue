@@ -1,5 +1,5 @@
 <template>
-  <div class="border-t border-gray-500 w-full bg-gray-900 h-auto py-6">
+  <div class="bottom-0 border-t border-gray-500 w-full bg-gray-900 h-auto py-6">
     <div class="grid grid-cols-3">
       <div class="flex flex-col justify-center px-10 items-start">
         <p class="footertext self-start">©nemunyan 2023</p>
