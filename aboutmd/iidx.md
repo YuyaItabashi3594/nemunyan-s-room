@@ -19,10 +19,10 @@ SP/DP切り替えシステム（オープンユアワールドシステム）が
 
 ## おすすめの曲
 
-quasar / OutPhase
+<p class="bigtext">quasar / OutPhase</p>
 
-<iframe width="600" height="480" src="https://www.youtube.com/embed/JuXy7S0zwpc" title="Beatmania IIDX - quasar DPA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube" width="600" height="480" src="https://www.youtube.com/embed/JuXy7S0zwpc" title="Beatmania IIDX - quasar DPA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Hitch Hiker 2 / good-cool
+<p class="bigtext">Hitch Hiker 2 / good-cool</p>
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/rPEmaCUyUTU" title="Beatmania IIDX 4th Style - Hitch Hiker 2 [DOUBLE] [ANOTHER]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube" width="600" height="400" src="https://www.youtube.com/embed/rPEmaCUyUTU" title="Beatmania IIDX 4th Style - Hitch Hiker 2 [DOUBLE] [ANOTHER]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
