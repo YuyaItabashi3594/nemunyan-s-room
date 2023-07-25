@@ -29,14 +29,17 @@ const toggleOpen = () => {
       });
   }
 };
-const src = ref('## hogehoge')
+
+const triangle = computed(() => {
+  return isOpen.value ? '▲' : '▼';
+});
 </script>
 
 <template>
-  <div class="">
+  <div class="mt-4">
     <div :class="{ 'border': isOpen }">
       <div @click="toggleOpen" class="text-center hover:bg-slate-600 transition duration-75 cursor-pointer">
-        <p class="text text-xl py-1" :class="{ 'border-b': isOpen }">{{ title }}</p>
+        <p class="text text-xl py-1" :class="{ 'border-b': isOpen }">{{ title }}  <span>{{ triangle }}</span></p>
       </div>
       <Transition name="slide">
         <ul v-if="isOpen" class="description rounded border-gray-500">
@@ -58,8 +61,20 @@ const src = ref('## hogehoge')
 .markdown p {
   margin-top: 0.5rem;
 }
+.markdown li {
+  list-style: disc;
+  margin-left: 1rem;
+}
+
+.markdown .bigtext {
+  @apply text-center text-xl mb-4;
+}
 
 .markdown img {
   @apply object-scale-down h-72;
+}
+
+.markdown .youtube {
+  @apply mx-auto;
 }
 </style>

@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="box">
-      <p class="text text-xl text-center">Currently Working On</p>
+      <p class="text text-xl text-center">Currently I Learn</p>
       <div class="flex flex-row mt-4 items-center justify-center">
         <Logo :src="'/logo/nuxtjs.png'" :url="'https://nuxtjs.org/'" :alt="'nuxt.js'" />
         <Logo :src="'/logo/react.png'" :url="'https://react.dev/'" :alt="'React'" />

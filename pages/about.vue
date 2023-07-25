@@ -4,7 +4,7 @@
       <div>
         <p class="text text-4xl text-center">Profile</p>
         <p class="text text-center description">
-          Birthday:1996/11/4
+          Birth Year:1996
         </p>
         <p class="text text-center description">
           Tohoku University of Economics and Management Master Degree
@@ -28,12 +28,12 @@
     </div>
     <div class="flex-1 items-center justify-center mx-2 h-auto">
       <div>
-        <p class="text text-4xl text-center">My Favorite Things</p>
+        <p class="text text-4xl text-center mb-4">My Favorite Things</p>
         <DropdownDescription :title="'beatmania IIDX'" :description="'iidx'" />
-        <p class="text text-center description">英傑大戦</p>
-        <p class="text text-center description">Baba is You</p>
-        <p class="text text-center description">Symphony of War</p>
-        <p class="text text-center description">OPUS</p>
+        <DropdownDescription :title="'英傑大戦'" :description="'eiketsu'" />
+        <DropdownDescription :title="'Baba is You'" :description="'baba'" />
+        <DropdownDescription :title="'OPUS'" :description="'opus'" />
+        <DropdownDescription :title="'Symphony of War'" :description="'symphonyofwar'" />
       </div>
     </div>
   </div>
