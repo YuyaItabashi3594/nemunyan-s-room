@@ -1,9 +1,11 @@
 <template>
   <main>
-    <ContentDoc>
-      <template v-slot:not-found>
-        <p class="text">工事中</p>
-      </template>
-    </ContentDoc>
+    <div class="min-h-screen markdown text w-2/3 p-6">
+      <ContentDoc v-slot="{ doc }">
+          <h1 class="text-4xl">{{ doc.title }}</h1>
+          <ContentRenderer :value="doc" />
+      </ContentDoc>
+    </div>
   </main>
 </template>
+

@@ -50,31 +50,3 @@ const triangle = computed(() => {
   </div>
 </template>
 
-<style>
-.markdown h2 {
-  border-bottom: 1px solid #dee2e6;
-  text-align: center;
-  font-size: 1.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.markdown p {
-  margin-top: 0.5rem;
-}
-.markdown li {
-  list-style: disc;
-  margin-left: 1rem;
-}
-
-.markdown .bigtext {
-  @apply text-center text-xl mb-4;
-}
-
-.markdown img {
-  @apply object-scale-down h-72;
-}
-
-.markdown .youtube {
-  @apply mx-auto;
-}
-</style>

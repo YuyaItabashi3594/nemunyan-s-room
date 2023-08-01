@@ -18,8 +18,7 @@ body{
   background-color: #1f2937;
 }
 .text {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  color: rgb(224, 224, 224);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";  color: rgb(224, 224, 224);
 }
 
 .description {
@@ -37,5 +36,32 @@ body{
   @apply border border-gray-500 p-4 mt-10 bg-gray-700 rounded-xl;
 }
 
+.markdown h2 {
+  border-bottom: 1px solid #dee2e6;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.markdown p {
+  margin-top: 0.5rem;
+}
+.markdown li {
+  list-style: disc;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.markdown .bigtext {
+  @apply text-center text-xl mb-4;
+}
+
+.markdown img {
+  @apply object-scale-down h-72;
+}
+
+.markdown .youtube {
+  @apply mx-auto;
+}
 
 </style>

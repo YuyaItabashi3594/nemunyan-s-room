@@ -1,6 +1,6 @@
 ## beatmania IIDXとは？
 
-KONAMiが提供している音楽ゲームのシリーズ。
+KONAMIが提供している音楽ゲームのシリーズ。
 ![beatmania IIDX](/pictures/iidxlm.jpg)
 
 ## Double Play（DP）とは？
