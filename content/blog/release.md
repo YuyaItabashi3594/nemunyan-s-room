@@ -8,6 +8,8 @@ tags:
   - github
   - github pages
   - Vue.js
+
+img: /blog/nuxtjs.png
 ---
 
 Nuxt3でポートフォリオを作りました。
