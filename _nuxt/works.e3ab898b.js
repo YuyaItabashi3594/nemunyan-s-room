@@ -1,1 +1,0 @@
-import{_ as e,c as s,o as c,a as o}from"./entry.33823459.js";const t={},n={class:"min-h-screen"},_=o("p",null,"後で作るよ",-1),r=[_];function a(d,i){return c(),s("div",n,r)}const f=e(t,[["render",a]]);export{f as default};
