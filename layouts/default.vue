@@ -1,5 +1,5 @@
 <template>
-  <div class="h-auto">
+  <div class="h-auto min-h-screen">
     <div class="items-center justify-top flex flex-col pb-10">
       <div class="w-full">
         <Navbar />
@@ -41,6 +41,12 @@ body{
   text-align: center;
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.markdown h3 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
 }
 
 .markdown p {
@@ -57,7 +63,7 @@ body{
 }
 
 .markdown img {
-  @apply object-scale-down h-72;
+  @apply object-scale-down mt-6 mx-auto;
 }
 
 .markdown .youtube {

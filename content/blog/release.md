@@ -6,7 +6,7 @@ categories:
 tags:
   - Nuxt3
   - github
-  - github pages
+  - github_pages
   - Vue.js
 
 img: /blog/nuxtjs.png
@@ -18,3 +18,9 @@ Nuxt3でポートフォリオを作りました。
 
 - NuxtContentv2を使って記事を管理することで，タグやカテゴリー，タイトルなどをpropsで渡せるようにしてカスタマイズ性を高め，また単にmdファイルを所定のフォルダに置くだけで記事が追加できるようにしました。
 - コンポーネントを駆使し，保守性を高くしています。
+
+## 後で追加する点
+
+- タグ検索
+- カテゴリー検索
+- Works/Walkthrough

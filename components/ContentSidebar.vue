@@ -1,15 +1,13 @@
 <script setup>
 const props = defineProps({
-  page: String
+  currentpage: String
 })
 
 const fetchedTags = await queryContent(props.page).only('tags').find()
 const tagArray = computed(() => {
   const Array = {}
   for (const tag of fetchedTags) {
-    console.log(tag)
     for (const item of tag.tags) {
-      console.log(item)
       if (Array[item]) {
         Array[item] += 1;
       } else {
@@ -24,9 +22,14 @@ const tagArray = computed(() => {
 
 <template>
   <div class="w-1/3 text px-20 text-xl">
-    <p>タグ一覧</p>
+    <p class="mb-2">タグ一覧</p>
+    <nuxt-link :to="{ path: `/${currentpage}` }">
+      <p class="mb-2 text-2xl">全て({{ fetchedTags.length }})</p>
+    </nuxt-link>
     <div v-for="(value, key) of tagArray">
-      <p>{{ key }}({{ value }})</p>
+      <nuxt-link :to="{ path: `/${currentpage}`, query: { tags: key } }">
+        <p class="my-1">{{ key }}({{ value }})</p>
+      </nuxt-link>
     </div>
   </div>
 </template>

@@ -9,8 +9,8 @@
       <NavbarContent :text="'Home'" :url="'/'" />
       <NavbarContent :text="'About'" :url="'/about'" />
       <NavbarContent :text="'Works'" :url="'/works'" />
-      <NavbarContent :text="'Blog'" :url="'blog'" />
-      <NavbarContent :text="'Walkthrough'" :url="'walkthrough'" />
+      <NavbarContent :text="'Blog'" :url="'/blog'" />
+      <NavbarContent :text="'Walkthrough'" :url="'/walkthrough'" />
     </div>
   </div>
 </template>
