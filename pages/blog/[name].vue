@@ -9,7 +9,7 @@
           <ContentRenderer :value="doc" />
         </ContentDoc>
       </div>
-      <ContentSidebar :page="'blog'" />
+      <ContentSidebar :currentpage="'blog'" />
     </div>
   </main>
 </template>

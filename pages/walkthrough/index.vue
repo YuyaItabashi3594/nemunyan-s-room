@@ -1,5 +1,6 @@
+<script setup>
 
-
+</script>
 <template>
-工事中
+<WalkthroughGame :game="'warframe'" :extension="'jpg'" :tag="'guide_for_beginner'" />
 </template>

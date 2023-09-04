@@ -3,7 +3,7 @@ const props = defineProps({
   currentpage: String
 })
 
-const fetchedTags = await queryContent(props.page).only('tags').find()
+const fetchedTags = await queryContent(props.currentpage).only('tags').find()
 const tagArray = computed(() => {
   const Array = {}
   for (const tag of fetchedTags) {
