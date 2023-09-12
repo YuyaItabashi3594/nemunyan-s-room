@@ -12,17 +12,25 @@ const slides = [
 
 const songName = ref('')
 
+const myCarousel = ref(0)
+
 function changeSongName(song){
   songName.value = song
+}
+
+function changeActiveSlide(index){
+  myCarousel.value = index
 }
 
 </script>
 
 <template>
-  <Carousel :autoplay="2500" :pauseAutoplayOnHover="true" :itemsToShow="3.95" :wrapAround="true" :transition="500">
-    <Slide v-for="slide in slides" :key="slide">
+  <Carousel v-model="myCarousel" :autoplay="3000" :pauseAutoplayOnHover="true" :itemsToShow="3.95" :wrapAround="true" :transition="500">
+    <Slide v-for="(slide,index) in slides" :key="slide">
       <div class="carousel__item relative">
-        <SlideContent :slide="slide" @hovered="changeSongName" @unhovered="changeSongName('')" />
+        <SlideContent :slide="slide" @hovered="changeSongName" @unhovered="changeSongName('')"
+        @clicked="changeActiveSlide(index)"
+        :isLinkActive="myCarousel == index"/>
       </div>
     </Slide>
     <template #addons>
