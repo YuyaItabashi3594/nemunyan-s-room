@@ -15,7 +15,7 @@ nuxtApp.hook("page:finish", () => {
       <LoadingImage />
     </div>
   </Transition>
-  <div class="h-auto min-h-screen">
+  <div class="layout mx-auto">
     <div class="items-center justify-top flex flex-col pb-10">
       <div class="w-full">
         <Navbar />
@@ -31,6 +31,11 @@ nuxtApp.hook("page:finish", () => {
 <style>
 body {
   background-color: #1f2937;
+}
+
+.layout {
+  min-height: 100vh;
+  width: 1280px;
 }
 
 .text {

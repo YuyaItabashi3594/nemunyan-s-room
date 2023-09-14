@@ -1,5 +1,5 @@
 <template>
-  <div class="bottom-0 border-t border-gray-500 w-full bg-gray-900 h-auto py-6">
+  <div class="footer mx-auto bottom-0 border-t border-gray-500 w-full h-auto py-6">
     <div class="grid grid-cols-3">
       <div class="flex flex-col justify-center px-10 items-start">
         <p class="footertext self-start">©nemunyan 2023</p>
@@ -12,6 +12,10 @@
 </template>
 
 <style>
+
+.footer {
+  width: 1280px;
+}
 .footertext {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1rem;
