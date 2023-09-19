@@ -12,6 +12,11 @@ export default defineNuxtConfig({
       ]
     },
   },
+  content: {
+    highlight :{
+      theme: 'github-dark'
+    }
+  },
   css: ["@fortawesome/fontawesome-svg-core/styles.css"],
   vite: {
     server: {
